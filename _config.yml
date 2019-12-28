@@ -30,3 +30,4 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-github-metadata
+strict_front_matter: true
