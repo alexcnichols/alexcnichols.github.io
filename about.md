@@ -1,7 +1,5 @@
 ---
 layout: default
-seo:
-    type: person
 ---
 
 Alex Nichols is a husband, father, and Senior Program Manager at [Microsoft](https://microsoft.com/about/company), where he focuses on the future of web and app development in the cloud. 
