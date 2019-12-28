@@ -1,0 +1,11 @@
+---
+layout: null
+disallows:
+  - /404.html
+---
+
+User-agent: *{% for disallowed in page.disallows %}
+Disallow: {{ disallowed }}{% endfor %}
+Allow: /
+Sitemap: https://alexcnichols.github.io/sitemap.xml
+Host: alexcnichols.github.io

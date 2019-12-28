@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}" xml:lang="{{ site.lang }}">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        {% seo %}
+
+        {% if site.google_analytics %}
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', '{{ site.google_analytics }}');
+        </script>
+        {% endif %}
+
+    </head>
+    <body>
+        {{ content }}
+
+        <p>This web site is open source. {% github_edit_link "Improve this page" %}</p>
+    </body>
+</html>
+<!-- Powered by GitHub Pages and Jekyll | Generated {{ site.time }} | Revision {{ site.github.build_revision }} -->

@@ -1,1 +1,30 @@
-theme: jekyll-theme-minimal
+title: Alex Nichols
+tagline: Husband, father, and Program Manager at Microsoft
+description: >- 
+  A personal website for Alex Nichols, a husband, father, and Program Manager at Microsoft.
+baseurl: ""
+name: "alexcnichols.github.io"
+url: "https://alexcnichols.github.io"
+lang: en-US
+author: 
+  name: Alex Nichols
+  twitter: alexcnichols
+permalink: slug
+twitter:
+  username: alexcnichols
+  card: summary
+social:
+  name: Alex Nichols
+  links: 
+    - https://twitter.com/alexcnichols
+    - https://linkedin.com/alexcnichols
+    - https://github.com/alexcnichols
+    - https://keybase.io/alexcnichols
+google_analytics: UA-117848109-2
+exclude: 
+  - Gemfile
+  - Gemfile.lock
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-github-metadata
