@@ -24,6 +24,8 @@ google_analytics: UA-117848109-2
 exclude: 
   - Gemfile
   - Gemfile.lock
+  - LICENSE
+  - README.md
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
