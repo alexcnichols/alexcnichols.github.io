@@ -1,12 +1,13 @@
 ---
 layout: null
 ---
-/* The web site */
-Last Updated: {{ site.time | date:"%Y/%m/%d" }}
-Standards: HTML5, CSS3
-Components: {% for dependency in site.github.versions %}{{ dependency[0] }}{% if forloop.rindex0 > 0 %}, {% endif %}{% endfor %}
+Web site last updated: {{ site.time | date:"%Y/%m/%d" }}
+Standards used: HTML5, CSS3
+Components used: {% for dependency in site.github.versions %}{{ dependency[0] }}{% if forloop.rindex0 > 0 %}, {% endif %}{% endfor %}
 
-/* Brought to you by */
+As mentioned in ThirdPartyNotices.txt, this source code was inspired and directly built upon works of others. 
+
+Contributions received directly from:
 {% for contributor in site.github.contributors %}
 Name: {{ contributor.login }}
 Profile: {{ contributor.html_url }}
