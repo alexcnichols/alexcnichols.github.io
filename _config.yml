@@ -22,9 +22,13 @@ social:
     - https://keybase.io/alexcnichols
 google_analytics: UA-117848109-2
 exclude: 
+  - assets/default.css
   - Gemfile
   - Gemfile.lock
   - LICENSE
+  - node_modules
+  - package-lock.json
+  - package.json
   - README.md
   - start.sh
 plugins:
