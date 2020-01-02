@@ -26,6 +26,7 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
+  - start.sh
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
