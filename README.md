@@ -5,6 +5,7 @@ The personal website of Alex Nichols. Built using GitHub Pages and Jekyll. See [
 ## Development
 
 ```
+npm install
 $ ./start.sh
 ```
 
