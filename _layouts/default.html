@@ -22,8 +22,8 @@
         {% endif %}
 
     </head>
-    <body>
-        <nav class="flex items-center justify-between flex-wrap p-4 mx-2 lg:mx-16">
+    <body class="bg-gray-900 text-gray-100">
+        <nav class="flex items-center justify-between flex-wrap p-4 mx-2 lg:mx-16 border-b">
             <div class="flex items-center flex-shrink-0 mr-6">
                 <span class="font-semibold text-xl tracking-tight">Alex Nichols</span>
             </div>
@@ -37,15 +37,15 @@
             </div>
             <div id="nav-links" class="w-full hidden lg:block flex-grow lg:flex lg:items-center lg:w-auto">
                 <div class="lg:flex-grow lg:text-center">
-                    <a href="{% link index.html %}" class="block mt-4 lg:inline-block lg:mt-0 hover:text-blue-800 mr-4">Home</a>
-                    <a href="{% link about.html %}" class="block mt-4 lg:inline-block lg:mt-0 hover:text-blue-800 mr-4">About</a>
-                    <a href="https://alexcnichols.com" class="block mt-4 lg:inline-block lg:mt-0 hover:text-blue-800">Blog {% octicon link-external class:"h-3 fill-current inline-block" %}</a>
+                    <a href="{% link index.html %}" class="block mt-4 lg:inline-block lg:mt-0 hover:text-blue-400 mr-4">Home</a>
+                    <a href="{% link about.html %}" class="block mt-4 lg:inline-block lg:mt-0 hover:text-blue-400 mr-4">About</a>
+                    <a href="https://alexcnichols.com" class="block mt-4 lg:inline-block lg:mt-0 hover:text-blue-400">Blog {% octicon link-external class:"h-4 pb-1 fill-current inline-block align-middle" %}</a>
                 </div>
                 <div>
-                    <a href="{% github_edit_link %}" class="block mt-4 lg:inline-block lg:align-middle lg:mt-0 lg:mr-6 hover:text-blue-800">{% octicon pencil class:"h-8 fill-current" %}</a>
+                    <a href="{% github_edit_link %}" class="block mt-4 text-xs lg:inline-block lg:mt-0 lg:mr-6 hover:text-blue-400">{% octicon pencil class:"h-5 pb-1 mr-1 fill-current inline-block align-middle" %}</a>
                 </div>
                 <div>
-                    <a href="{% link contact.html %}" class="inline-block px-4 py-2 leading-none border rounded border-blue-800 hover:border-transparent hover:text-white hover:bg-blue-800 mt-4 lg:mt-0">Contact</a>
+                    <a href="{% link contact.html %}" class="inline-block px-4 py-2 leading-none border rounded border-blue-300 hover:border-transparent hover:text-gray-100 hover:bg-blue-400 mt-4 lg:mt-0">Contact</a>
                 </div>
             </div>
         </nav>
