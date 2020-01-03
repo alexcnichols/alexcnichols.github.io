@@ -34,4 +34,5 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-github-metadata
+  - jekyll-octicons
 strict_front_matter: true

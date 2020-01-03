@@ -28,18 +28,21 @@
                 <span class="font-semibold text-xl tracking-tight">Alex Nichols</span>
             </div>
             <div class="block lg:hidden">
-                <button type="button" id="nav-open" onclick="openNav()" class="flex items-center px-3 py-2 rounded text-200 hidden">
+                <button type="button" id="nav-open" onclick="openNav()" class="flex items-center px-3 py-2 rounded hidden">
                     <svg class="fill-current w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path></svg>
-                  </button>
-                <button type="button" id="nav-close" onclick="closeNav()" class="flex items-center px-3 py-2 rounded text-200">
+                </button>
+                <button type="button" id="nav-close" onclick="closeNav()" class="flex items-center px-3 py-2 rounded">
                     <svg class="fill-current w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><title>Menu</title><path d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z"></path></svg>
-                  </button>
+                </button>
             </div>
             <div id="nav-links" class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
                 <div class="lg:flex-grow lg:text-center">
-                    <a href="{% link index.html %}" class="block mt-4 lg:inline-block lg:mt-0 text-200 hover:text-blue-800 mr-4">Home</a>
-                    <a href="{% link about.html %}" class="block mt-4 lg:inline-block lg:mt-0 text-200 hover:text-blue-800 mr-4">About</a>
-                    <a href="https://alexcnichols.com" class="block mt-4 lg:inline-block lg:mt-0 text-200 hover:text-blue-800">Blog</a>
+                    <a href="{% link index.html %}" class="block mt-4 lg:inline-block lg:mt-0 hover:text-blue-800 mr-4">Home</a>
+                    <a href="{% link about.html %}" class="block mt-4 lg:inline-block lg:mt-0 hover:text-blue-800 mr-4">About</a>
+                    <a href="https://alexcnichols.com" class="block mt-4 lg:inline-block lg:mt-0 hover:text-blue-800">Blog {% octicon link-external class:"h-3 fill-current inline-block" %}</a>
+                </div>
+                <div>
+                    <a href="{% github_edit_link %}" class="block mt-4 lg:inline-block lg:align-middle lg:mt-0 lg:mr-6 hover:text-blue-800">{% octicon pencil class:"h-8 fill-current" %}</a>
                 </div>
                 <div>
                     <a href="{% link contact.html %}" class="inline-block px-4 py-2 leading-none border rounded border-blue-800 hover:border-transparent hover:text-white hover:bg-blue-800 mt-4 lg:mt-0">Contact</a>
