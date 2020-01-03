@@ -2,10 +2,10 @@
 THIRD-PARTY SOFTWARE NOTICES AND INFORMATION
 Do Not Translate or Localize
 
-alexcnichols.github.io incorporates third party material from the projects listed below. The original copyright notice 
-and the license under which I received such third party material are set forth below. 
-I reserve all other rights not expressly granted, whether by implication, estoppel or 
-otherwise. 
+alexcnichols.github.io incorporates third party material from the projects listed below. 
+The original copyright notice and the license under which I received such third party 
+material are set forth below. I reserve all other rights not expressly granted, whether 
+by implication, estoppel or otherwise. 
 
 
 1.  sindresorhus.github.com (https://github.com/sindresorhus/sindresorhus.github.com)

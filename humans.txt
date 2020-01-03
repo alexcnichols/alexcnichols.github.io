@@ -1,7 +1,7 @@
 ---
 layout: null
 ---
-Web site last updated: {{ site.time | date:"%Y/%m/%d" }}
+Web site last updated: {{ site.time | date:"%Y-%m-%d" }}
 Standards used: HTML5, CSS3
 Components used: {% for dependency in site.github.versions %}{{ dependency[0] }}{% if forloop.rindex0 > 0 %}, {% endif %}{% endfor %}
 
