@@ -22,9 +22,25 @@
 
     </head>
     <body>
+        <div class="border-b">
+            <div class="container mx-auto">
+                <div class="flex justify-between mx-16 py-4">
+                    <div class="mx-4">
+                        <span>Alex Nichols</span>
+                    </div>
+                    <div>
+                        <a class="mx-4" href="{% link index.html %}">Home</a>
+                        <a class="mx-4" href="{% link about.md %}">About</a>
+                    </div>
+                    <div class="mx-4">
+                        {% github_edit_link "Edit" %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
         {{ content }}
 
-        <p>This web site is open source. {% github_edit_link "Improve this page" %}</p>
     </body>
 </html>
 <!-- Powered by GitHub Pages and Jekyll | Generated {{ site.time }} | Revision {{ site.github.build_revision }} -->
