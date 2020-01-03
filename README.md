@@ -1,12 +1,13 @@
 # alexcnichols.github.io
 
-The personal website of Alex Nichols. Built using GitHub Pages and Jekyll. See [humans.txt](https://alexcnichols.github.io/humans.txt) for more information.
+The personal website of Alex Nichols. Built using GitHub Pages, Jekyll, and TailwindCSS. See [humans.txt](https://alexcnichols.github.io/humans.txt) for more information.
 
 ## Development
 
 ```
 npm install
-$ ./start.sh
+npx tailwind build assets/default.css -o assets/default-out.css
+./start.sh
 ```
 
 ## License
