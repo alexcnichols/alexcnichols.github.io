@@ -2,7 +2,7 @@
 layout: default
 ---
 
-    <div class="container mx-auto mt-2">
+    <div class="container mx-auto mt-2 h-screen">
         <div class="p-4 mx-2 lg:mx-16">
             <div class="flex justify-center p-4">
                 <img class="rounded-full" src="{{ '/assets/alex-nichols-small.jpg' | relative_url }}" alt="Alex Nichols" />
@@ -10,5 +10,29 @@ layout: default
             <h1 class="text-5xl text-center">Alex Nichols</h1>
             <h2 class="text-2xl text-center">Senior Program Manager at Microsoft</h2>
             <p class="text-center my-8">I care about building products with cohesive teams that customers want to use.</p>
+        </div>
+    </div>
+
+    <div id="products" class="container mx-auto mt-2 h-screen">
+        <div class="p-4 mx-2 lg:mx-16">
+            <h1 class="text-5xl text-left">Products</h1>
+            <div class="flex content-around justify-around flex-wrap h-64">
+                <div class="w-1/2 p-2 flex-none">
+                    <h2 class="text-2xl"><a class="text-blue-300 hover:text-blue-400" href="https://azure.com/boards">Azure Boards</a></h2>
+                    <p>Integrated with GitHub for issue tracking and code linking. <br /><a class="text-blue-300 hover:text-blue-400" href="https://devblogs.microsoft.com/devops/introducing-azure-boards-to-the-github-marketplace/">Blog post</a> | <a  class="text-blue-300 hover:text-blue-400"href="https://youtu.be/A3jD3eWvYLE">Video</a></p>
+                </div>
+                <div class="w-1/2 p-2 flex-none">
+                    <h2 class="text-2xl"><a class="text-blue-300 hover:text-blue-400" href="https://azure.com/devops">Azure DevOps</a></h2>
+                    <p>Guided the product organization through over a dozen releases and a major product brand change. <br /><a class="text-blue-300 hover:text-blue-400" href="https://devblogs.microsoft.com/devops/author/alex-nichols/">Blog posts</a> | <a class="text-blue-300 hover:text-blue-400" href="https://devblogs.microsoft.com/devops/whats-new-in-azure-devops-launch-update/">Blog post</a>, <a class="text-blue-300 hover:text-blue-400" href="https://youtu.be/kn2f5a2Z_n4">video</a>, and <a class="text-blue-300 hover:text-blue-400"href="https://youtu.be/dgfNfexC26c">live coding event</a> produced for launch</p>
+                </div>
+                <div class="w-1/2 p-2 flex-none">
+                    <h2 class="text-2xl">alexcnichols.github.io</h2>
+                    <p>This site!</p>
+                </div>
+                <div class="w-1/2 p-2 flex-none">
+                    <h2 class="text-2xl"><a class="text-blue-300 hover:text-blue-400" href="https://microsoft.com/store">Microsoft Retail Stores</a></h2>
+                    <p>Enabled integration with third party drop ship suppliers, dramatically expanding the catalog.</p>
+                </div>
+            </div>
         </div>
     </div>
