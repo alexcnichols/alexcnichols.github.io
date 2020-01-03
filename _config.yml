@@ -16,10 +16,9 @@ twitter:
 social:
   name: Alex Nichols
   links: 
-    - https://twitter.com/alexcnichols
-    - https://linkedin.com/alexcnichols
-    - https://github.com/alexcnichols
-    - https://keybase.io/alexcnichols
+    twitter: https://twitter.com/alexcnichols
+    linkedin: https://linkedin.com/alexcnichols
+    github: https://github.com/alexcnichols
 google_analytics: UA-117848109-2
 exclude: 
   - assets/default.css
