@@ -7,6 +7,7 @@ The personal website of Alex Nichols. Built using GitHub Pages, Jekyll, and Tail
 ```
 npm install
 npx tailwind build assets/default.css -o assets/default-out.css
+bundle install
 ./start.sh
 ```
 
